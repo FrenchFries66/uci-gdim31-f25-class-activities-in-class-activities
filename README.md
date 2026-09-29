@@ -1,7 +1,6 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
 If the Camera is moved off of the Cat GameObject, the camera will not move along with the cat because it is now at the same level and will not move along with the cat's movement.
 https://frenchfries666.itch.io/w1d1-in-class-activity
 ### W2
