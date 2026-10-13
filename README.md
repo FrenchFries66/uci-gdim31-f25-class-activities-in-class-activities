@@ -14,6 +14,7 @@ Activity1:
 3. input boolean, output bool
 
 Activity2:
+
 I think of a class as a person: a complete profile of traits and abilities that exists only on paper. A Component is the job that person gets hired for — the moment they are hired (instantiated), the profile becomes a working barista, cashier, or guard. Member variables are the person's traits, like charm or stamina. Methods are the full abilities they can perform, like making latte art or operating the register. 
 
 ## Open-Source Assets
