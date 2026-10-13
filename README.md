@@ -7,6 +7,10 @@ https://frenchfries666.itch.io/w1d1-in-class-activity
 1. Because r,g,b variables are both decimal.
 2. Since this is a collision, the number of times must be an integer.
 3. No semicolon at the end.
+### W3
+1.input int and boolean, output string
+2.input float, output void
+3.input boolean, output bool
 
 ## Open-Source Assets
 ### W1
