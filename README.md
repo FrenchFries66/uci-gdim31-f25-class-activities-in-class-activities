@@ -8,6 +8,8 @@ https://frenchfries666.itch.io/w1d1-in-class-activity
 2. Since this is a collision, the number of times must be an integer.
 3. No semicolon at the end.
 ### W3
+#table 16
+
 Activity1: 
 1. input int and boolean, output string
 2. input float, output void
