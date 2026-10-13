@@ -19,6 +19,8 @@ Activity2:
 
 I think of a class as a person: a complete profile of traits and abilities that exists only on paper. A Component is the job that person gets hired for — the moment they are hired (instantiated), the profile becomes a working barista, cashier, or guard. Member variables are the person's traits, like charm or stamina. Methods are the full abilities they can perform, like making latte art or operating the register. 
 
+Because it multiple 1.2 every single time.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
