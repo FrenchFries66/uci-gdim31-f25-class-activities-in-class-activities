@@ -24,7 +24,19 @@ Because it multiple 1.2 every single time.
 ### W4
 Table 16
 1. I added Rigidbodies to the Cat and the SoccerBall, but not to the Goal. A Rigidbody makes an object physical, so the cat can kick the ball and both can bounce off the wall — their colliders do not use Is Trigger. The Goal only has Is Trigger checked: it just needs to detect the ball entering while letting it pass through. It does not need a Rigidbody because it never moves, and gravity would pull it down.
-2. At first the ball only spun in place and did not move forward when kicked. The problem was that Freeze Position X and Z were checked on its Rigidbody, so it was locked in place. Unchecking them fixed it. 
+2. At first the ball only spun in place and did not move forward when kicked. The problem was that Freeze Position X and Z were checked on its Rigidbody, so it was locked in place. Unchecking them fixed it.
+
+### W5
+Table 16 
+
+Xiangyi Li & Xinyue Zhang
+
+1.The class needs two member variables: one Transform variable for the target and one NavMeshAgent variable for the deer's movement. 
+
+2.Start() 
+
+3.The method is used to first get the component in NavMeshAgent and then set destination of the target. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
