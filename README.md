@@ -28,9 +28,13 @@ Table 16
 
 ### W5
 Table 16 
+
 Xiangyi Li & Xinyue Zhang
+
 1.The class needs two member variables: one Transform variable for the target and one NavMeshAgent variable for the deer's movement. 
+
 2.Start() 
+
 3.The method is used to first get the component in NavMeshAgent and then set destination of the target. 
 
 ## Open-Source Assets
