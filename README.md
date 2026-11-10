@@ -37,6 +37,32 @@ Xiangyi Li & Xinyue Zhang
 
 3.The method is used to first get the component in NavMeshAgent and then set destination of the target. 
 
+### W7
+Table 16
+
+https://docs.google.com/document/d/1W83E18EwXXSdkScO6OmRU6EeHu7ACjFLijvjSUNB8QA/edit?tab=t.y3iibnqv47z1
+
+My part is Unity coding.
+
+Member variables:
+
+- A serialized float variable to store the speed.
+  
+- A serialized Cat component as the chase target, which can be assigned in the Inspector.
+  
+Methods and what they do:
+
+- Update(): Move toward the Cat every frame.
+
+- public Stop(): Set enabled to false to stop running Update().
+
+- public StartChasing(): Set enabled to true to resume running Update().
+
+- Start(): Call StartChasing() to make the bat start chasing immediately when the game begins.
+
+Xiangyi Li & Xinyue Zhang & Patrick Du
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
