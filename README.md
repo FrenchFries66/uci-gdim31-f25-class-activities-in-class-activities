@@ -37,6 +37,11 @@ Xiangyi Li & Xinyue Zhang
 
 3.The method is used to first get the component in NavMeshAgent and then set destination of the target. 
 
+### W7
+Table 16
+https://docs.google.com/document/d/1W83E18EwXXSdkScO6OmRU6EeHu7ACjFLijvjSUNB8QA/edit?tab=t.y3iibnqv47z1
+My part is Unity Coding.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
