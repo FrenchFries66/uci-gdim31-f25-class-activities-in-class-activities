@@ -67,6 +67,7 @@ Xiangyi Li & Xinyue Zhang & Patrick Du
 Table 16
 
 Xiangyi Li, she/her
+<img width="2560" height="1407" alt="561c877df37ec63d4c2b0c3a5cf74c2" src="https://github.com/user-attachments/assets/d7b078eb-f961-4141-ba79-9baa59dacdd4" />
 
 The code in Step 2 used Vector3.forward, which is in world space. It always points along the world's Z axis, no matter which way the Muskrat is facing. So after the Muskrat turned, it still moved in the world's forward direction instead of its own forward direction. I replaced it with transform.forward, which is in the Muskrat's object space and turns together with it.
 
