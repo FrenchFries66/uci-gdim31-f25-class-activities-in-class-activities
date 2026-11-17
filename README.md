@@ -26,7 +26,7 @@ Table 16
 1. I added Rigidbodies to the Cat and the SoccerBall, but not to the Goal. A Rigidbody makes an object physical, so the cat can kick the ball and both can bounce off the wall — their colliders do not use Is Trigger. The Goal only has Is Trigger checked: it just needs to detect the ball entering while letting it pass through. It does not need a Rigidbody because it never moves, and gravity would pull it down.
 2. At first the ball only spun in place and did not move forward when kicked. The problem was that Freeze Position X and Z were checked on its Rigidbody, so it was locked in place. Unchecking them fixed it.
 
-### W5
+### W6
 Table 16 
 
 Xiangyi Li & Xinyue Zhang
@@ -61,6 +61,14 @@ Methods and what they do:
 - Start(): Call StartChasing() to make the bat start chasing immediately when the game begins.
 
 Xiangyi Li & Xinyue Zhang & Patrick Du
+
+
+### W8
+Table 16
+Xiangyi Li, she/her
+
+The code in Step 2 used Vector3.forward, which is in world space. It always points along the world's Z axis, no matter which way the Muskrat is facing. So after the Muskrat turned, it still moved in the world's forward direction instead of its own forward direction. I replaced it with transform.forward, which is in the Muskrat's object space and turns together with it.
+
 
 
 ## Open-Source Assets
